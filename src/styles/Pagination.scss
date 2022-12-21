@@ -1,0 +1,17 @@
+.pagination {
+    padding-top: 20px;
+}
+
+.pagination__dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #e8e6e9;
+  margin: 0 7px;
+  cursor: pointer;
+
+  &.active {
+    background-color: #b49ebe;
+  }
+}
