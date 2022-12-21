@@ -1,0 +1,31 @@
+.carousel__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.carousel {
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+}
+
+.carousel__image {
+  width: 40vw;
+  height: 30vw;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.carousel__button {
+  width: 100px;
+  height: 50px;
+  margin: auto 20px;
+  padding: 0;
+  border: 0px;
+  border-radius: 10px;
+  background-color: #e8e6e9;
+  cursor: pointer;
+}
